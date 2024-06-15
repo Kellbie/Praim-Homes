@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="padding-left: 5%; padding-right: 5%; padding-top: 5%;">
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        max-width: 90%;
+    }
+}
+    </style>
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <form class="row g-3" id="contact-form">
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Migration Type</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Study</option>
+            <option>Work</option>
+            <option>Permanent Resident</option>
+            <option>Investment</option>
+            <option>Refugee</option>
+
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Migration To</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>America</option>
+            <option>Canada</option>
+            <option>France</option>
+            <option>Nigeria</option>
+            <option>United Kingdom</option>
+            <option>Belgium</option>
+            <option>Spain</option>
+
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputAddress" placeholder="Email Address">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Phone Number</label>
+          <input type="number" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Present Country</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Nigeria</option>
+          </select>
+        </div>
+        
+        <div class="col-12">
+          <label for="">Marital Status</label>
+
+          <div class="form-check form-check-inline">
+            
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Single</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Divorced</label>
+          </div>      
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Married</label>
+          </div>
+        </div>
+
+        <div class="col-12" style="display: none;">
+          <label for="inputAddress2" class="form-label">Age </label>
+          <input type="number" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+
+        <div class="col-12" style="display: none;">
+          <label for="">Sex</label>
+
+          <div class="form-check form-check-inline">
+            
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+          </div>      
+        </div>
+        
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        
+      </form>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      if  
+    </script>
+  </body>
+</html>

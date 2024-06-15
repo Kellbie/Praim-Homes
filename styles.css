@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+.carousel1-container {
+    overflow: hidden;
+  }
+  
+  .carousel1 {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .caru-item {
+    flex: 0 0 100%; /* Ensure each item takes up the full width */
+    position: relative;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+  }
+  
